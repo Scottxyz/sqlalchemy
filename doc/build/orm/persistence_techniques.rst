@@ -668,12 +668,12 @@ ORM extension.   An example of use is at: :ref:`examples_sharding`.
 Bulk Operations
 ===============
 
-.. note::  Bulk Operations mode is a new series of operations made available
+.. note::  Bulk Operations mode is a series of operations made available
    on the :class:`.Session` object for the purpose of invoking INSERT and
    UPDATE statements with greatly reduced Python overhead, at the expense
-   of much less functionality, automation, and error checking.
-   As of SQLAlchemy 1.0, these features should be considered as "beta", and
-   additionally are intended for advanced users.
+   of much less functionality, automation, and error checking.  These
+   operations were added in SQLAlchemy 1.0, however are not generally
+   considered "mainstream" API features.
 
 .. versionadded:: 1.0.0
 
